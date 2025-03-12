@@ -1,0 +1,179 @@
+#navBar {
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 24px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	background: #616D7E;
+
+	/*	color */
+	color: rgba(0, 51, 99, 1);
+}
+
+#navbarNav {
+
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 20px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+
+	/*	color */
+	color: rgba(0, 51, 99, 1);
+}
+
+#hero{
+	background: 
+		linear-gradient(
+			rgba(0, 0, 0, 0.50),
+			rgba(0, 0, 0, 0.50)
+		),
+		url("https://wallpapers.com/images/hd/gundam-4k-fqqjv1hrnv1zwjcg.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	height: 600px;
+	;
+} 
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+#title {
+    font-family: "Press Start 2P", cursive;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #FFFFFF;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    border-right: 4px solid white; /* Cursor effect */
+
+    animation: typing 3s steps(20, end) forwards, 
+               blink 0.7s infinite;
+}
+
+
+@media (max-width: 768px) {
+    #title {
+        font-size: 20px;
+        line-height: 40px;
+        border-right: 2px solid white; /* Adjust cursor size */
+        animation: typing 2s steps(15, end) forwards, 
+                   blink 0.7s infinite;
+    }
+}
+
+@media (max-width: 480px) {
+    #title {
+        font-size: 16px;
+        line-height: 30px;
+        border-right: 2px solid white;
+        animation: typing 1.5s steps(12, end) forwards, 
+                   blink 0.7s infinite;
+    }
+}
+
+
+
+
+#title2{
+	width: 600px;
+	height: 124px;
+	top: 166px;
+	left: 4px;
+	gap: 0px;
+	opacity: 0px;
+	font-family: Anton;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	color: #FFFFFF;
+
+}
+
+#base{
+	background: #1974D2;
+	padding: 8px 24px 8px 24px;
+	border-radius: 100px;
+
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 24px;
+	text-align: center;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	color: #FFFFFF;
+
+
+}
+#text-title{
+	font-family: Roboto Condensed;
+	margin-top: 10px;
+	color: whitesmoke;
+
+}
+.text2 {
+	font-family: Roboto Condensed;
+	margin-top: 10px;
+	color: whitesmoke;
+
+}
+
+.text {
+	font-family: Roboto Condensed;
+	font-size: 20px;
+	margin-top: 10px;
+	color: whitesmoke;
+
+}
+
+#heading{
+	background: 
+		linear-gradient(
+			rgba(0, 0, 0, 0.50),
+			rgba(0, 0, 0, 0.50)
+		),
+		url("https://img.freepik.com/free-vector/gradient-tech-futuristic-background_52683-74267.jpg");
+		background-repeat: repeat;
+		background-size: initial;
+	height: 800px;
+	;
+} 
+
+.rock-salt-regular {
+  font-family: "Rock Salt", cursive;
+  font-weight: 800;
+  font-style: normal;
+}
